@@ -25,3 +25,4 @@ E:\Programming tings\Discord Bots\discord-chess-bot\bin\Debug\net7.0\System.Inte
 E:\Programming tings\Discord Bots\discord-chess-bot\bin\Debug\net7.0\System.Linq.Async.dll
 E:\Programming tings\Discord Bots\discord-chess-bot\bin\Debug\net7.0\System.Reactive.dll
 E:\Programming tings\Discord Bots\discord-chess-bot\obj\Debug\net7.0\discord-chess-bot.csproj.CopyComplete
+E:\Programming tings\Discord Bots\discord-chess-bot\bin\Debug\net7.0\dotenv.net.dll

@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v7.0": {
       "discord-chess-bot/1.0.0": {
         "dependencies": {
-          "Discord.Net": "3.11.0"
+          "Discord.Net": "3.11.0",
+          "dotenv.net": "3.1.2"
         },
         "runtime": {
           "discord-chess-bot.dll": {}
@@ -97,6 +98,14 @@
           "lib/net6.0/Discord.Net.WebSocket.dll": {
             "assemblyVersion": "3.11.0.0",
             "fileVersion": "3.11.0.0"
+          }
+        }
+      },
+      "dotenv.net/3.1.2": {
+        "runtime": {
+          "lib/netstandard2.1/dotenv.net.dll": {
+            "assemblyVersion": "3.1.2.0",
+            "fileVersion": "3.1.2.0"
           }
         }
       },
@@ -201,6 +210,13 @@
       "sha512": "sha512-85vyo2bMThjgQgu1Fr4NCi7TNXrWEn3MlRF9zt1qcAFlMNy8UE6qpa1KmERD0Z05G8UB+l8/UQ4TmH1mWN/cqQ==",
       "path": "discord.net.websocket/3.11.0",
       "hashPath": "discord.net.websocket.3.11.0.nupkg.sha512"
+    },
+    "dotenv.net/3.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lFm4hGX9JkNtAF36Uz4C3WT7MC6Ys802k0cPvlln8ydmH67GQjnToH+w645tQm1czAjW/V6tPE088lD77sYFGA==",
+      "path": "dotenv.net/3.1.2",
+      "hashPath": "dotenv.net.3.1.2.nupkg.sha512"
     },
     "Microsoft.Extensions.DependencyInjection.Abstractions/5.0.0": {
       "type": "package",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "X/c9FNd0t8bKKdPctpXVsg3A2tlync+UbrVZ6nxmjU7IxXym7YyFNSHGLZuWNfI6/e0zN/JTEYx2bbftlKv6WQ==",
+  "dgSpecHash": "pX3hhEx4O5tk87mvVLpl4RaRUf1QMiKkN5KiWlAHjVxtDKepSEfvaB1J1qBRY/s9XBErdov1c3U5W4Ti5cbb6g==",
   "success": true,
   "projectFilePath": "E:\\Programming tings\\Discord Bots\\discord-chess-bot\\discord-chess-bot.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "C:\\Users\\Shelby Leggott\\.nuget\\packages\\discord.net.rest\\3.11.0\\discord.net.rest.3.11.0.nupkg.sha512",
     "C:\\Users\\Shelby Leggott\\.nuget\\packages\\discord.net.webhook\\3.11.0\\discord.net.webhook.3.11.0.nupkg.sha512",
     "C:\\Users\\Shelby Leggott\\.nuget\\packages\\discord.net.websocket\\3.11.0\\discord.net.websocket.3.11.0.nupkg.sha512",
+    "C:\\Users\\Shelby Leggott\\.nuget\\packages\\dotenv.net\\3.1.2\\dotenv.net.3.1.2.nupkg.sha512",
     "C:\\Users\\Shelby Leggott\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\Shelby Leggott\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
     "C:\\Users\\Shelby Leggott\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",

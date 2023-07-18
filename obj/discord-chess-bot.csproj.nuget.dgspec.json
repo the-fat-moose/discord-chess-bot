@@ -41,6 +41,10 @@
             "Discord.Net": {
               "target": "Package",
               "version": "[3.11.0, )"
+            },
+            "dotenv.net": {
+              "target": "Package",
+              "version": "[3.1.2, )"
             }
           },
           "imports": [
