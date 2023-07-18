@@ -1,6 +1,5 @@
 ﻿using Discord.WebSocket;
 using Discord.Net;
-using dotenv.net;
 public class Program
 {
 
@@ -13,11 +12,12 @@ public class Program
         _client = new DiscordSocketClient();
         _client.Log += Log;
 
-        var token = "INSERT SECURE METHOD OF OBTAINING DISCORD TOKEN HERE";
+        var token = File.ReadAllText("token.txt");
 
         await _client.LoginAsync(Discord.TokenType.Bot, token);
         await _client.StartAsync();
 
+        // Keeps bot online until forcefully stopped
         await Task.Delay(-1);
     }
 
