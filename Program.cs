@@ -16,6 +16,7 @@ public class Program
         _client.Log += Log;
         _client.Ready += Client_Ready;
 
+        // obtains the bot token
         var token = File.ReadAllText("token.txt");
 
         await _client.LoginAsync(TokenType.Bot, token);
@@ -35,10 +36,10 @@ public class Program
     {
         ulong guildID = Convert.ToUInt64(File.ReadAllText("guildID.txt"));
 
-        // Let's build a guild command! We're going to need a guild so lets just put that in a variable.
+        // We're going to need a guild so lets just put that in a variable.
         var guild = _client.GetGuild(guildID);
 
-        // Next, lets create our slash command builder. This is like the embed builder but for slash commands.
+        // This is like the embed builder but for slash commands.
         var guildCommand = new SlashCommandBuilder();
 
         // Note: Names have to be all lowercase and match the regular expression ^[\w-]{3,32}$
@@ -48,6 +49,7 @@ public class Program
         globalCommand.WithName("first-global-command");
         globalCommand.WithDescription("This is my first global slash command");
 
+        // ERROR CHECKER
         try
         {
             
